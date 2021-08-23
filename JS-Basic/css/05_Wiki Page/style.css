@@ -1,0 +1,17 @@
+
+        h1{
+                font-size: 40px;
+                color: orange;
+                background-color: palegoldenrod;
+                width: 50%;
+            }
+        li img{
+            width: 20px;
+            height: 20px;
+        }
+        .big{
+            font-size: 80px;
+        }
+        span{
+            background-color: palegreen;
+        }

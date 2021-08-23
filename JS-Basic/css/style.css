@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+ul{
+    background: darkgray;
+    margin: 0;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+   padding: 15px;
+}
+li a{
+    text-decoration: none;
+    color: palegreen;
+    font-family: "Helvetica" sans-serif;
+    text-transform: uppercase;
+}
