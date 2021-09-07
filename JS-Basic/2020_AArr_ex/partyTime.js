@@ -28,7 +28,6 @@ function solver(input) {
     });
     console.log(list.vip.length + list.regular.length)
     console.log(`${list.vip.join('\n')}\n${list.regular.join('\n')}`);
-    
 }
 
 solver(['7IK9Yo0h',
