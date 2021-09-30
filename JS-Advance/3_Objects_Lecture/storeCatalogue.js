@@ -6,14 +6,23 @@ function solver(input) {
     input.forEach(e => {
         let [name, price] = e.split(' : ');
         price = Number(price);
+        const index = name[0];
 
-        result[name] = price;
+        if (!result[index]) {
+            result[index] = {};
+        }
+        result[index][name] = price;
     });
 
-    for (let prod in result) {
-        sorted = Object.entries(result[prod]).sort((a, b) => a.localeCompare(b))
+    let initialSort = Object.keys(result).sort((a, b) => a.localeCompare(b));
+
+    for (const key of initialSort) {
+        let products = Object.entries(result[key]).sort((a, b) => a[0].localeCompare(b[0]));
+        console.log(key);
+        products.forEach(element => {
+            console.log(`  ${element[0]}: ${element[1]}`);
+        });
     }
-    console.log(sorted)
 }
 
 solver(['Appricot : 20.4',
