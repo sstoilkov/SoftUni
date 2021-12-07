@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
 body {
@@ -35,3 +36,42 @@ body {
   background: #ccccff;
   padding: 1em;
 }
+=======
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.accordion {
+  border: 2px solid #cdc7c7;
+  display: inline-block;
+  width: 40%;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+.accordion p {
+  margin: 1em;
+}
+
+.button {
+  float: right;
+  background: #393636;
+  padding: 0.1em 1em 0.1em 1em;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.extra {
+  display: none;
+}
+
+.head {
+  background: #ccccff;
+  padding: 1em;
+}
+>>>>>>> e529c063bf1de75e3d406046c962e4fdc60827f5

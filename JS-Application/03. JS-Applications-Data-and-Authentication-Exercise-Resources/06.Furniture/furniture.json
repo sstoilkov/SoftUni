@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
         "img":"https://www.ikea.com/PIAimages/0447583_PE597395_S5.JPG",
@@ -12,4 +13,20 @@
         "price": "120",
         "decFactor":"1.2"
     }
+=======
+[
+    {
+        "img":"https://www.ikea.com/PIAimages/0447583_PE597395_S5.JPG",
+        "name": "Sofa",
+        "price": "259",
+        "decFactor":"0.4"
+
+    },
+    {
+        "img":"https://www.stylespafurniture.com/wp-content/uploads/2020/03/Cove_3_Door_Wardrobe_1.jpg",
+        "name": "Wardrobe",
+        "price": "120",
+        "decFactor":"1.2"
+    }
+>>>>>>> e529c063bf1de75e3d406046c962e4fdc60827f5
 ]
