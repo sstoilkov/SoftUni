@@ -10,8 +10,7 @@ export const TaskList = () => {
             {tasks.map(x =>
                 <TaskItem
                     key={x._id}
-                    title={x.title}
-                    taskId={x._id}
+                    task={x}
                 />
             )}
         </ul>
